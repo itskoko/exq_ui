@@ -60,6 +60,11 @@ define('exqui/tests/app.lint-test', ['exports'], function (exports) {
     assert.ok(true, 'controllers/scheduled/index.js should pass ESLint\n\n');
   });
 
+  QUnit.test('helpers/format-json.js', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'helpers/format-json.js should pass ESLint\n\n');
+  });
+
   QUnit.test('models/custom-inflector-rules.js', function (assert) {
     assert.expect(1);
     assert.ok(true, 'models/custom-inflector-rules.js should pass ESLint\n\n');
